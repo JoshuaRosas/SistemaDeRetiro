@@ -7,7 +7,8 @@ public class Tarjeta implements Comparable<Tarjeta>{
 	private int clavcaj;
 	private Cuenta numcuen;
 	private Cliente dni;
-	public Tarjeta(String numtar, String tipotar, String fecven, String cvv, int clavcaj, Cuenta numcuen, Cliente dni) {
+	public Tarjeta(String numtar, String tipotar, String fecven,
+			String cvv, int clavcaj, Cuenta numcuen, Cliente dni) {
 		super();
 		this.numtar = numtar;
 		this.tipotar = tipotar;
